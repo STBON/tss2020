@@ -35,7 +35,11 @@ public class ArrayLoopApp {
         //fase output
         printOutput();
     }
-
+/**
+ *questa funzione serve per preparare il saldo
+ * 
+ * @author tss
+ */
     static int preparaSaldo() {
         int newsaldo = 0;
         for (int i = 0; i < movs.length; i++) {
@@ -70,8 +74,10 @@ public class ArrayLoopApp {
         output += "il saldo e' di " + saldo;
         JOptionPane.showMessageDialog(null, output);
     }
-
-    static int mygetInt() {
+/**
+ * questa funzione serve per preparare il saldo
+ */
+static int mygetInt() {
         int ris = 0;
         boolean ok = false;
         while (ok == false) //(!ok)
