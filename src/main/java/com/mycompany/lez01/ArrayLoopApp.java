@@ -80,7 +80,7 @@ public class ArrayLoopApp {
 static int mygetInt() {
         int ris = 0;
         boolean ok = false;
-        while (ok == false) //(!ok)
+        while (!ok) //(!ok)
         {
             try {
                 String strmov = JOptionPane.showInputDialog("dimmi valore movimento (es. 200, -50)");
